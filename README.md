@@ -17,17 +17,19 @@ var gag = require('node-9gag')
 ```js
 gag.find('<query string>', function (err, res) {})
 
-res = {
-  query: ,
-  sectionHeader: ,
-  result: {
-    title: ,
-    id: ,
-    url: ,
-    author: ,
-    image:
+res = [
+  {
+    query: ,
+    sectionHeader: ,
+    result: {
+      title: ,
+      id: ,
+      url: ,
+      author: ,
+      image:
+    }
   }
-}
+]
 ```
 
 - Get details of a post from its id
