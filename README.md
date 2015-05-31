@@ -6,7 +6,7 @@
 
 npm install node-9gag
 
-##Usage
+## Usage
 
 ```js
 var gag = require('node-9gag')
@@ -17,19 +17,20 @@ var gag = require('node-9gag')
 ```js
 gag.find('<query string>', function (err, res) {})
 
-res = [
-  {
-    query: ,
-    sectionHeader: ,
-    result: {
+res =
+{
+  query: ,
+  sectionHeader: ,
+  result: [
+    {
       title: ,
       id: ,
       url: ,
       author: ,
       image:
     }
-  }
-]
+  ]
+}
 ```
 
 - Get details of a post from its id
