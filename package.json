@@ -1,12 +1,22 @@
 {
   "name": "node-9gag",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "A simple API for accessing 9gag",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinb94/node-9gag.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sachinb94/node-9gag/issues"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sachin Bansal <sachinbansal94@gmail.com>",
+  "author": {
+    "name": "Sachin Bansal",
+    "email": "sachinbansal94@gmail.com"
+  },
   "license": "MIT",
   "dependencies": {
     "request": "^2.56.0",
@@ -16,5 +26,12 @@
     "9gag",
     "node-9gag",
     "gag"
-  ]
+  ],
+  "readme": "# node-9gag\n\n*A simple API for accessing 9gag*\n\n## Installation\n\nnpm install node-9gag\n\n##Usage\n\n```js\nvar gag = require('node-9gag')\n```\n\n- Find a post on 9gag\n\n```js\ngag.find('<query string>', function (err, res) {})\n\nres = {\n  query: ,\n  sectionHeader: ,\n  result: {\n    title: ,\n    id: ,\n    url: ,\n    author: ,\n    image:\n  }\n}\n```\n\n- Get details of a post from its id\n\n```js\ngag.getItem('< id >', function (err, res) {})\n\nres = {\n  title: ,\n  points: ,\n  commentCount: ,\n  image:\n}\n```\n",
+  "readmeFilename": "README.md",
+  "gitHead": "4e3d3900a8e44933a985edbc6866172e9ebba35a",
+  "homepage": "https://github.com/sachinb94/node-9gag#readme",
+  "_id": "node-9gag@0.1.2",
+  "_shasum": "8a869125cc453d8ffe985af57cea43d6247f1dfb",
+  "_from": "node-9gag@>=0.1.2 <0.2.0"
 }
