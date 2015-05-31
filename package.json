@@ -1,6 +1,6 @@
 {
   "name": "node-9gag",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A simple API for accessing 9gag",
   "main": "index.js",
   "scripts": {
