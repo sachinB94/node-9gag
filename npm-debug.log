@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'version', 'patch' ]
+2 info using npm@2.11.0
+3 info using node@v0.12.4
+4 info preversion undefined
+5 info git [ 'status', '--porcelain' ]
+6 verbose stack Error: Error: Git working directory not clean.
+6 verbose stack M package.json
+6 verbose stack     at /usr/local/lib/node_modules/npm/lib/version.js:67:23
+6 verbose stack     at /usr/local/lib/node_modules/npm/lib/version.js:147:34
+6 verbose stack     at ChildProcess.exithandler (child_process.js:742:7)
+6 verbose stack     at ChildProcess.emit (events.js:110:17)
+6 verbose stack     at maybeClose (child_process.js:1015:16)
+6 verbose stack     at Socket.<anonymous> (child_process.js:1183:11)
+6 verbose stack     at Socket.emit (events.js:107:17)
+6 verbose stack     at Pipe.close (net.js:485:12)
+7 verbose cwd /home/luffy/node/node-9gag
+8 error Linux 3.16.0-41-generic
+9 error argv "node" "/usr/local/bin/npm" "version" "patch"
+10 error node v0.12.4
+11 error npm  v2.11.0
+12 error Error: Git working directory not clean.
+12 error M package.json
+13 error If you need help, you may report this error at:
+13 error     <https://github.com/npm/npm/issues>
+14 verbose exit [ 1, true ]
