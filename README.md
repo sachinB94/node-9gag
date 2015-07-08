@@ -24,7 +24,6 @@ gag.find('query', function (err, res) {
   //       title: ,
   //       id: ,
   //       url: ,
-  //       author: ,
   //       image:
   //     }
   //   }
@@ -45,7 +44,7 @@ gag.getItem('id', function (err, res) {
 });
 ```
 
-- Access a section on 9gag
+- Access a section on 9gag (defaults to hot)
 
 ```js
 gag.section('section'[, hot/fresh], function (err, res) {
